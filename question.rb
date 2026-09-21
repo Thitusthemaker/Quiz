@@ -7,7 +7,7 @@ class Question
     @answer = answer
   end
   def hint
-    "Hint, first letter #{answer[0]}"
+    answer[0]
   end
   def ask
     puts prompt
